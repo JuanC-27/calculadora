@@ -1,0 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #34475a;
+    color: #fff;
+    border-radius: 10px;
+}
+.titulo{
+    text-align: center;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.child-container{
+    display: flex;
+    flex-direction: column;
+}
+.boton{
+    flex-basis: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+    .btnSubmit{
+        height: 25px;
+        padding: 15px;
+        background-color: #1e90ff;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 0;
+        letter-spacing: 1.2px;
+        color: #fff;
+    }
+    .btnSubmit:hover{
+        background-color: #42678c;
+    }
+
+.eleccion{
+    margin-left: 10px;
+    height: 30px;
+    background-color: #1e90ff;
+    border-radius: 20%;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+    option{
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+.inputNumber{
+    background-color: #bfd0e1d0 ;
+    font-size: 16px;
+    padding: 5px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #1e90ff;
+    line-height: .5;
+}
