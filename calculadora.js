@@ -1,11 +1,11 @@
-const numeroUno = document.getElementById("nUno");
-const numeroDos = document.getElementById("nDos");
-const boton = document.getElementById("btnSubmit");
-const botonReset = document.getElementById("btnReset");
-const seleccionador = document.getElementById("seleccionar");
-const resultado = document.querySelector(".mensajeResultado");
+const $ = (selector) => document.querySelector(selector);
+const numeroUno = $("#nUno");
+const numeroDos = $("#nDos");
+const boton = $("#btnSubmit");
+const botonReset = $("#btnReset");
+const seleccionador = $("#seleccionar");
+const resultado = $(".mensajeResultado");
 const histResult = document.querySelector(".historial");
-
 botonReset.addEventListener("click",()=>{
     numeroUno.value = 0;
     numeroDos.value = 0;
